@@ -65,7 +65,7 @@ reset.onclick = function(){
         if(hor > 9){
             appendHor.innerHTML = hor;
         }
-        if (min > 60){
+        if (min > 59){
             console.log("hora");
             hor++;
             appendHor.innerHTML = "0" + hor;
@@ -86,7 +86,7 @@ reset.onclick = function(){
             appendMin.innerHTML = min;
         }
 
-        if(min > 60){
+        if(min > 59){
             hor++;
             appendHor.innerHTML = "0" + hor;
             min = 0;
