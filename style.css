@@ -1,0 +1,104 @@
+body{
+    background-color: coral;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+}
+h1{
+    font-size: 45px;
+    margin-top: 5%;
+}
+
+#start{
+    background-color: coral;
+    width: 150px;
+    height: 75px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    transition: transform 1s;
+    position: relative;
+    
+
+}
+
+#start:hover{
+    background-color: white;
+    color: coral;
+    transform: translateX(3px) scale(1.1);
+    transition: background 1s;
+
+}
+
+#stop:hover{
+    background-color: white;
+    color: coral;
+    transform: translateX(3px) scale(1.1);
+    transition: background 1s;
+
+}
+
+#reset:hover{
+    background-color: white;
+    color: coral;
+    transform: translateX(3px) scale(1.1);
+    transition: background 1s;
+
+}
+
+#add:hover{
+    background-color: white;
+    color: coral;
+    transform: translateX(3px) scale(1.1);
+    transition: background 1s;
+
+}
+
+#stop{
+    background-color: coral;
+    width: 150px;
+    height: 75px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    transition: transform 1s;
+    position: relative;
+}
+#reset{
+    background-color: coral;
+    width: 150px;
+    height: 75px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    transition: transform 1s;
+    position: relative;
+
+}
+#add{
+
+    margin-top: 4%;
+    background-color: coral;
+    width: 150px;
+    height: 75px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    transition: transform 1s;
+    position: relative;
+
+
+}
+
+footer{
+    padding-top: 25% ;
+}
